@@ -1,0 +1,175 @@
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+#logo {
+    height: 70px;
+    width: auto;
+}
+
+#secondNavbarContainer {
+    background-color: #28a745;
+}
+
+#secondNavbar {
+    a {
+        outline: none;
+        color: white;
+    }
+}
+
+#featuredImage {
+    width: inherit;
+    height: auto;
+}
+
+#featuredPost {
+    div {
+        padding-bottom: 5px;
+    }
+    border-bottom: 1px solid #28a745;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.sectorRow {
+    margin: 5px;
+    padding-bottom: 20px;
+}
+
+.align-me {
+    display: flex;  
+    align-items: center;
+}
+
+#topNewsTitle {
+    background-color: #28a745;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+}
+
+#topNewsCol {
+    border: 3px solid #28a745;
+    padding:0;
+}
+
+#dropdownCol {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.listGroupNews {
+    button {
+        a {
+            color: black;
+            outline: none;
+        }
+        outline: none;
+    }
+}
+
+#footer {
+    #newsletter{
+        max-height: 350px;
+        background-color: #28a745;
+        color: #ffffff;
+
+        #inputEmail{
+            margin: 0 auto;
+            text-align: center;
+            max-width: 650px;
+        }            
+        .btnSubmit{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    #connect{
+        //max-height: 100px;
+        color: #ffffff;
+        height: auto;
+        background-color: rgb(56, 56, 56);
+
+        #connectIconRow{
+            text-align: center;
+
+            .connectIcons{
+                text-align: center;
+                font-size: 2.5rem;
+                margin: 0rem 0.8rem;
+            }
+            .connectIcons:hover{
+                font-size: 2.7rem;
+            }
+        }
+    }
+}
+
+#iframePost {
+    border: none;
+    height: 1020px;
+    width: inherit;
+}
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+#allContent {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (max-width: 567px) {
+    #footer {
+        #connect{
+            #connectIconRow{
+                .connectIcons{
+                    font-size: 2rem;
+                    margin: 0rem 0.5rem;
+                }
+                .connectIcons:hover{
+                    font-size: 2.3rem;
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    #allContent {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #allContent {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    #allContent {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
+}

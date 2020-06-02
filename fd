@@ -1,0 +1,65 @@
+[33mcommit 29a5359636dceaf0f9f5c731f37079f9042b0bf8[m[33m ([m[1;36mHEAD -> [m[1;32maygundev[m[33m, [m[1;31morigin/aygundev[m[33m)[m
+Author: thebestuser <bestuseralways718@outlook.com>
+Date:   Tue Jun 2 10:40:05 2020 +0300
+
+    dynamic URL, handle error dlg, clean code, hooks
+
+[33mcommit 68bb8c12cbcbf52650ea807e7bfc9f76df147de3[m
+Author: thebestuser <bestuseralways718@outlook.com>
+Date:   Tue Jun 2 15:27:38 2020 +0800
+
+    dynamic URL, handle error dlg, clean code, hooks
+
+[33mcommit f3fc4fbaf070ae5fed4ee0741d0470274adf202e[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 43f0ad7 7828162
+Author: Dusan Markovic <dusan.shane.markovic@gmail.com>
+Date:   Thu May 21 00:50:06 2020 +0200
+
+    Merge pull request #2 from shaneMarkovic/fetch
+    
+    fetch posts
+
+[33mcommit 782816214c484811556039bf408b4f535b76c64f[m[33m ([m[1;31morigin/fetch[m[33m)[m
+Author: shaneMarkovic <dusan.shane.markovic@gmail.com>
+Date:   Thu May 21 00:49:38 2020 +0200
+
+    fetch posts
+
+[33mcommit 43f0ad78717ab9c58a7aecd6b6edaaa3bbea81d5[m
+Merge: 62a9757 188dc39
+Author: Dusan Markovic <dusan.shane.markovic@gmail.com>
+Date:   Sun May 3 17:59:33 2020 +0200
+
+    Merge pull request #1 from shaneMarkovic/footer
+    
+    Added footer
+
+[33mcommit 188dc39a27a332d2a6ed9e78701ec1b39e4b67fc[m[33m ([m[1;31morigin/footer[m[33m)[m
+Author: ShLjIvA <38868194+ShLjIvA@users.noreply.github.com>
+Date:   Sun May 3 17:54:29 2020 +0200
+
+    Added footer
+
+[33mcommit 62a97578a267bf4a18f883cff855f0cb247f8f86[m
+Author: shaneMarkovic <dusan.shane.markovic@gmail.com>
+Date:   Sun Apr 26 13:44:11 2020 +0200
+
+    start port
+
+[33mcommit 9ba9c802124fef26d42199d9104e09f57168f5f4[m
+Author: shaneMarkovic <dusan.shane.markovic@gmail.com>
+Date:   Sun Apr 26 13:38:41 2020 +0200
+
+    remove yarn.lock
+
+[33mcommit cc2e0a9f3e594de2dc9ab015831e5c6faaa318eb[m
+Author: shaneMarkovic <dusan.shane.markovic@gmail.com>
+Date:   Sun Apr 26 13:33:03 2020 +0200
+
+    project init
+
+[33mcommit eac99fb1ec05029fabc1992de3007639d5a97309[m
+Author: shaneMarkovic <dusan.shane.markovic@gmail.com>
+Date:   Sun Apr 26 13:32:29 2020 +0200
+
+    first commit
